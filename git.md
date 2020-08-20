@@ -36,5 +36,12 @@ add origin remote-repo-location.git
 -v - shows the locations on the remote repo
 log - shows the log history of commits
 branch - shows all branches
+-d feature-01-branch-name
 checkout -b branch-name-01
 diff (branch to compare to) - highlights differences
+reset - either plain or with file name to unstage a change
+
+- HEAD - resets back to the previous commit
+- HEAD~1 - resets back to the previous but 1 commit
+- commit hash - will reset back to the hash specified
+- --hard hash - will reset back to the hash specified and will delete everything else after that
