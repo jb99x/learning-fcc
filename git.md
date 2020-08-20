@@ -35,3 +35,6 @@ remote
 add origin remote-repo-location.git
 -v - shows the locations on the remote repo
 log - shows the log history of commits
+branch - shows all branches
+checkout -b branch-name-01
+diff (branch to compare to) - highlights differences
