@@ -25,7 +25,7 @@ push - Upload Git commits from your local repo to a remote repo, like Github
 origin - remote repo name
 master - branch in the remote repo named above
 (push -u origin master) will make the default push location
-pull - Download changes from a remote repo to and existing repo on your local machine, the opposite of push
+pull - Download changes from a remote repo to an existing repo on your local machine, the opposite of push
 config
 --global
 user.name "Your Name"
