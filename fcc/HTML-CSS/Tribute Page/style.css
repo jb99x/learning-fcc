@@ -65,6 +65,17 @@ a:hover {
   font-size: 0.9rem;
 }
 
+#page-footer a {
+  color: #666666;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#page-footer a:hover {
+  color: #cb6614;
+  text-decoration: none;
+}
+
 @media (max-width: 460px) {
   #page-header {
     padding: 5px;
